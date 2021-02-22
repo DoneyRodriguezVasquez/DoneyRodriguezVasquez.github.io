@@ -1,0 +1,31 @@
+.header {
+    background-image: url('../img/background.jpg');
+    background-size:cover;
+    background-position: center;
+    height: 600px; 
+    margin-top: 0;
+}
+.nav-item {
+    margin-right: 30px;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 12px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: black;
+    color: coral;
+}
+
+.bi {
+    color: red;
+    font-size: 32px;
+}
+
+.bg-navy {
+    background-color:#001f3f;
+}
