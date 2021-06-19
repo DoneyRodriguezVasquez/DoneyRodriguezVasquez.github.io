@@ -1,13 +1,27 @@
+body {
+    margin: 0 auto;
+}
+
 .header {
     background-image: url('../img/background.jpg');
     background-size:cover;
-    background-position: center;
-    height: 600px; 
+    background-position: center; 
+    height: 100vh; 
+    width: 100%;
     margin-top: 0;
 }
+
+.navbar {
+    margin-top: -120px;
+    width: 100%;
+    background-color:rgb(42, 37, 48);
+}
+
 .nav-item {
     margin-right: 30px;
+    width: 100px;
 }
+
 .navbar a {
     color: #fff;
     text-decoration: none;
@@ -21,11 +35,77 @@
     color: coral;
 }
 
+.intro {
+    height: 100vh; 
+    width: 100%;
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 120px;
+}
+
+.resume {
+    height: 100vh; 
+    width: 100%;
+    background-color:rgb(42, 37, 48);
+    padding-top: 120px;
+}
+
+.work {
+    height: 100vh; 
+    width: 100%;
+    background-color:rgb(42, 37, 48);
+    padding-top: 120px;
+}
+
+.contact {
+    height: 100vh; 
+    width: 100%;
+    background-color:rgb(42, 37, 48);
+    padding-top: 120px;
+}
+
 .bi {
-    color: red;
+    color:#b22222;
     font-size: 32px;
+}
+
+p {
+    color:black;
+    font-size: 32px;
+    line-height: 1.5;
 }
 
 .bg-navy {
     background-color:#001f3f;
+}
+
+
+@media screen and (max-width: 1680px) {
+
+    content {
+        width: 1200px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+    content {
+        width: 960px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+
+    content {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 736px) {
+
+    .content {
+        width: 100%;
+        max-width: calc(100% - 30px);
+    }
 }
