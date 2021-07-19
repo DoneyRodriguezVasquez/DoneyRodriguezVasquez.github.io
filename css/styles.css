@@ -85,33 +85,3 @@ footer {
     background-color:rgb(42, 37, 48);
 
 }
-
-
-@media screen and (max-width: 1680px) {
-
-    header {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 1280px) {
-
-    header {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 980px) {
-
-    header {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 736px) {
-
-    header {
-        width: 100%;
-        max-width: calc(100% - 30px);
-    }
-}
