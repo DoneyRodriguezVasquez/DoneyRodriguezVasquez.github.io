@@ -1,5 +1,6 @@
 body {
     margin: 0 auto;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 .header {
@@ -35,34 +36,24 @@ body {
     color: coral;
 }
 
-.intro {
+.sections {
     height: 100vh; 
     width: 100%;
-    background: #abbaab;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #f1f1f1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffffff, #f1f1f1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffffff, #f1f1f1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding-top: 120px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.resume {
-    height: 100vh; 
-    width: 100%;
-    background-color:rgb(42, 37, 48);
-    padding-top: 120px;
-}
-
-.work {
-    height: 100vh; 
-    width: 100%;
-    background-color:rgb(42, 37, 48);
-    padding-top: 120px;
-}
-
-.contact {
-    height: 100vh; 
-    width: 100%;
-    background-color:rgb(42, 37, 48);
-    padding-top: 120px;
+.box {
+    margin: 0 auto;
+    padding: 35px;
+    width: 90%;
+    margin-top: 50px;
+    color: #757575 !important;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
 .bi {
@@ -76,35 +67,50 @@ p {
     line-height: 1.5;
 }
 
-.bg-navy {
-    background-color:#001f3f;
+.image {
+    display: flex;
+    position: relative;
+    align-self: center;
+}
+
+.image.featured {
+    margin: 0 auto;
+    width: 100%; 
+    height: auto;
+}
+
+
+footer {
+    width: 100%;
+    background-color:rgb(42, 37, 48);
+
 }
 
 
 @media screen and (max-width: 1680px) {
 
-    content {
-        width: 1200px;
+    header {
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 1280px) {
 
-    content {
-        width: 960px;
+    header {
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 980px) {
 
-    content {
+    header {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 736px) {
 
-    .content {
+    header {
         width: 100%;
         max-width: calc(100% - 30px);
     }
