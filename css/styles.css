@@ -43,8 +43,8 @@ body {
     background: -webkit-linear-gradient(to left, #ffffff, #f1f1f1);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #ffffff, #f1f1f1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding-top: 120px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .box {
