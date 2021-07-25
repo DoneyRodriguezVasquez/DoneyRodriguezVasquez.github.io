@@ -52,12 +52,6 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link d-flex flex-column btn btn-floating btn-outline-light" href="#skills">
-                                    <i class="bi bi-trophy"></i>
-                                    <span class="d-none d-sm-inline">Skills</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link d-flex flex-column btn btn-floating btn-outline-light" href="#contact">
                                     <i class="bi bi-envelope"></i>
                                     <span class="d-none d-sm-inline">Contact</span>
@@ -94,7 +88,8 @@
                         <dd style="color:#b22222; font-weight: 700;">Innotec</dd>
                         <dd>2019 - Present</dd>
                         <dd>Business intelligence consultant</dd>
-                        <dd></dd>
+                        <dd><strong>Languages:</strong> T-SQL, HTML, CSS, Python.</dd>
+                        <dd><strong>Tools:</strong> SQL Server, VSCode, Visual Studio, Git, SQL Management Studio, Jira, SSIS, SSAS, PEGA Marketing</dd>
                     </dl>
                     <br>
                     <dl>
@@ -102,6 +97,8 @@
                         <dd style="color:#b22222; font-weight: 700;">Grupo Mas</dd>
                         <dd>2018-219</dd>
                         <dd>Web Developer</dd>
+                        <dd><strong>Languages:</strong> ASP, HTML, CSS, PHP, Javascript.</dd>
+                        <dd><strong>Tools:</strong> VSCode, Visual Studio, Postman, Microsoft Team Foundation Server, SoapUI.   </dd>
                     </dl>
                     <br>
                 </div>
@@ -110,23 +107,35 @@
                 </div>
             </div>
         </section>
-        <!-- Section Resume-->
-        <section class="sections" id="skills">
-            <div class="row box">
-                <h2 style="text-align: center;">Skills</h2>
-                
-                <div class="col-md-6 col-sm-6">
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <img src="./img/avatar.png" class="image featured" alt="">
-                </div>
-            </div>
-        </section>
         <!-- Section Contact-->
         <section class="sections" id="contact">
-            <div class="row box">
-                <div class="col-md-12 col-sm-6 text-white">
-                    <h2>Contact</h2>
+            <div class="card card-primary">
+                <div class="card-header">
+                    <h3 class="card-title">Contact</h3>
+                </div>
+                <div class="card-body">
+                    <form action="https://formspree.io/f/mzbyawpw" method="POST">
+                        <input type="hidden" name="_subject" value="Contact request from personal website">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="bi bi-envelope"></i>
+                                </span>
+                            </div>
+                            <input class="form-control" type="email" placeholder="Your email" name="_replyto">
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="bi bi-envelope"></i>
+                                </span>
+                            </div>
+                            <textarea class="form-control mb-4" rows="1" placeholder="Type your message" name="message"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-block btn-secondary btn-lg" type="submit">Send</button>
                 </div>
             </div>
         </section>
@@ -134,21 +143,19 @@
     <footer class="bg-dark text-center text-white">
         <!-- Grid container -->
         <div class="container p-4 pb-0">
+            <div class="text-center">
+                <p>Find me on social networks.</p>
+            </div>
           <!-- Section: Social media -->
           <section class="mb-4">
       
-            <!-- Google -->
-            <a class="btn btn-outline-light btn-floating m-1" style="border:0;" href="#!" role="button"
-              ><i class="bi bi-google"></i
-            ></a>
-      
             <!-- Linkedin -->
-            <a class="btn btn-outline-light btn-floating m-1" style="border:0;" href="#!" role="button"
+            <a class="btn btn-outline-light btn-floating m-1" style="border:0;" href="https://www.linkedin.com/in/doneyantoniorodriguezvasquez" role="button"
               ><i class="bi bi-linkedin"></i
             ></a>
       
             <!-- Github -->
-            <a class="btn btn-outline-light btn-floating m-1" style="border:0;" href="#!" role="button"
+            <a class="btn btn-outline-light btn-floating m-1" style="border:0;" href="https://github.com/DoneyRodriguezVasquez" role="button"
               ><i class="bi bi-github"></i
             ></a>
           </section>
@@ -158,8 +165,7 @@
       
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2020 Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          © 2021 Doney Antonio Rodríguez Vásquez.
         </div>
         <!-- Copyright -->
       </footer>
